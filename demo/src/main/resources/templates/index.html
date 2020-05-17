@@ -1,3 +1,13 @@
-<div>
-Hello World
-</div>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{/login}">
+		username:<input ><br>
+		password:<input><br>
+		<input type="submit" value="login">
+	</form>
+</body>
+</html>
